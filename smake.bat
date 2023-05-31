@@ -24,10 +24,6 @@ IF "%1" == "install" (
     cmake --install . --config Debug
 )
 
-::cmake -G "Visual Studio 16 2019" -A x64 -T host=x64 ../pixyz_engine -DCMAKE_INSTALL_PREFIX=../../newstudio_1/com.unity.dataengine.pixyzstudio/PixyzEngine/windows -DPXZ_DEPENDENCIES_DIR=..\dependencies -DPXZ_BUILD_SAMPLES=True
-
 @echo off
 cd ..
 cd ..
-
-::cmake --build ./build --config RelWithDebInfo --target PiXYZStudio/PiXYZStudio -j 8
