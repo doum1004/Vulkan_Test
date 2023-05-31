@@ -3,7 +3,7 @@ SET target_build=build
 mkdir %target_build%
 cd %target_build%
 
-SET target_folder=t1
+SET target_folder=test1
 mkdir %target_folder%
 cd %target_folder%
 mkdir install
@@ -16,6 +16,9 @@ IF "%1" == "generate" (
 )
 IF "%1" == "open" (
     cmake --open ./
+)
+IF "%1" == "build" (
+    cmake --build . --target install --config Debug
 )
 IF "%1" == "install" (
     cmake --install . --config Debug
