@@ -1,0 +1,1 @@
+gmake.bat build
