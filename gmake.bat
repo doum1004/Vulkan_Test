@@ -3,7 +3,7 @@ SET target_build=build
 mkdir %target_build%
 cd %target_build%
 
-SET target_folder=test1
+SET target_folder=test2
 mkdir %target_folder%
 cd %target_folder%
 mkdir install

@@ -40,7 +40,7 @@ target_link_directories(sdl2 INTERFACE ${sdl2_DIR}/lib ${sdl2_image_DIR}/lib)
 endif()
 
 target_link_libraries(sdl2 INTERFACE SDL2 SDL2main)
-install(FILES ${sdl2_DIR}/bin/SDL2.dll DESTINATION $<TARGET_FILE_DIR:chapter_0> COMPONENT Deps)
+install(FILES ${sdl2_DIR}/bin/SDL2.dll DESTINATION $<TARGET_FILE_DIR:apps> COMPONENT Deps)
 
 add_library(imgui STATIC)
 

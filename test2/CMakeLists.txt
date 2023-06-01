@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.0)
-project ("vulkan t1")
+project ("vulkan test2")
 
 find_package(Vulkan REQUIRED)
 add_subdirectory(${CMAKE_CURRENT_SOURCE_DIR}/../thridparty ${CMAKE_CURRENT_BINARY_DIR}/thridparty)
